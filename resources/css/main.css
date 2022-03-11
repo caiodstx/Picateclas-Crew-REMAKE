@@ -5,11 +5,14 @@
     align-items: center;
     margin-top: 25px;
 }
+
 #team-members-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
+
+/* Members Card */
 .member-card {
     display: flex;
     flex-direction: column;
@@ -22,10 +25,12 @@
     box-shadow: 2px 5px 15px rgb(109, 109, 109);
     border-radius: 10px;
 }
+
 .member-subtitle {
     font-style: italic;
     color: #6f6f6f;
 }
+
 .member-img {
     border: 0.2px solid #c6c6c6;
     border-radius: 50%;
@@ -40,4 +45,34 @@
 .member-img img {
     width: 70px;
     height: 70px;
+}
+
+/* Team Status */
+
+#team-status-container {
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    background-color: #bbb3a28b;
+    box-shadow: 2px 5px 15px rgb(109, 109, 109);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#status-subtitle {
+    font-style: italic;
+    color: #5d5d5d;
+}
+
+#status-indicators-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#status-happy,
+#status-sad {
+    margin: 50px;
 }
