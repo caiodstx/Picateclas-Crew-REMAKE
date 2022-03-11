@@ -76,3 +76,53 @@
 #status-sad {
     margin: 50px;
 }
+
+/* Stack Container */
+
+#team-technology-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 0.2px solid #d8d8d8;
+    box-shadow: 2px 5px 15px rgb(109, 109, 109);
+    border-radius: 10px;
+    width: 1000px;
+    height: 200px;
+
+}
+
+#technology-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1000px;
+    height: 200px;
+}
+
+.technology img {
+    width: 70px;
+    height: 70px;
+}
+
+.technology {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 0.2px solid #c6c6c6;
+}
+
+#technology-titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#technology-card {
+    text-align: center;
+}
