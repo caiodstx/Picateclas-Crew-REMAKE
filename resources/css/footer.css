@@ -1,0 +1,11 @@
+footer {
+    font-family: 'Poppins';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-color: #bbb3a2;
+    box-shadow: 1px -5px 20px rgb(109, 109, 109);
+    text-align: center;
+    height: 50px;
+}
